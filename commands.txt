@@ -1,0 +1,5 @@
+alias composer="php ~/.local/bin/composer"
+alias pa="php artisan"
+
+alias
+goToLuminaProject="repositories/private/lumina-esthetic-studio-website-tools/"
