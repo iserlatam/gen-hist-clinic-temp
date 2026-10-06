@@ -24,6 +24,11 @@
             <flux:spacer />
 
             <flux:sidebar.nav>
+
+                <flux:tooltip :content="__('Cambiar tema')" position="bottom">
+                    <flux:button x-data x-on:click="$flux.dark = ! $flux.dark" icon="moon" variant="subtle" aria-label="Toggle dark mode" />
+                </flux:tooltip>
+
                 <flux:sidebar.item icon="folder-git-2" href="https://github.com/laravel/livewire-starter-kit" target="_blank">
                     {{ __('Repository') }}
                 </flux:sidebar.item>
