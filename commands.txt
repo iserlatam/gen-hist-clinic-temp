@@ -2,4 +2,6 @@ alias composer="php ~/.local/bin/composer"
 alias pa="php artisan"
 
 alias
-goToLuminaProject="repositories/private/lumina-esthetic-studio-website-tools/"
+goToClinicProject="repositories/public/gen-hist-clinic-temp"
+fetchPublicResources="cp -rn public/* /home/lumisxtn/public_html/"
+
